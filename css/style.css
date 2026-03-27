@@ -1,0 +1,40 @@
+body {
+  background: #0a0a0a;
+  color: #eaeaea;
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  font-size: 28px;
+  letter-spacing: 3px;
+  border-bottom: 1px solid #333;
+}
+
+h2 {
+  margin: 40px 20px 10px;
+  border-left: 3px solid gold;
+  padding-left: 10px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #333;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  border: 1px solid gold;
+  transform: scale(1.05);
+}
